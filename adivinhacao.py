@@ -4,7 +4,6 @@ print("*********************************")
 
 numero_secreto = 7
 total_de_tentativas = 3
-rodada = 1
 
 for rodada in range(1, total_de_tentativas +1):
     print("Tentativa {} de {}".format( rodada, total_de_tentativas))
@@ -18,12 +17,11 @@ for rodada in range(1, total_de_tentativas +1):
 
     if(acertou):
         print("Voce acertou!")
+        break
     else:
         if(maior):
             print("Voce errou! O numero secreto é menor.")
         elif(menor):
             print("Voce errou! O numero secreto é maior.")
-
-    rodada = rodada + 1
 
 print("Fim do jogo")
