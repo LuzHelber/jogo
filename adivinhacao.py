@@ -2,7 +2,7 @@ print("*********************************")
 print("Bem vindo no jogo de Adivinhacao!")
 print("*********************************")
 
-numero_secreto = 42
+numero_secreto = 7
 total_de_tentativas = 3
 rodada = 1
 
@@ -20,9 +20,9 @@ while(rodada <= total_de_tentativas):
         print("Voce acertou!")
     else:
         if(maior):
-            print("Voce errou! O numero é secreto menor.")
+            print("Voce errou! O numero secreto é menor.")
         elif(menor):
-            print("Voce errou! O numero é secreto maior.")
+            print("Voce errou! O numero secreto é maior.")
 
     rodada = rodada + 1
 
